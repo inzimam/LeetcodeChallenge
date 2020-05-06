@@ -17,7 +17,7 @@ import java.util.HashMap;
 public class FirstUniqueCharacterPositionInString {
     public static void main(String[] args) {
         FirstUniqueCharacterPositionInString fucpis = new FirstUniqueCharacterPositionInString();
-        System.out.println("firstBadVersion " + fucpis.firstUniqChar(5));
+        System.out.println("firstUniqCharPos " + fucpis.firstUniqChar("loveleetcode"));
     }
 
     int firstUniqChar(String s) {
